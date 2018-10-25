@@ -1,11 +1,11 @@
 body {
   margin-top:20vh;
-  font-family: "Neuzeit S";
+  font-family: "Neuzeit S", inherit;
 }
 
 h2 {
     color: #0054DE;
-    font-family: "Neuzeit S Bold";
+    font-family: "Neuzeit S Bold", inherit;
     font-size: 24px;
 }
 
@@ -21,7 +21,7 @@ p {
 #headline {
     text-transform: uppercase;
     font-weight: 600;
-    font-family: "Neuzeit S Bold";
+    font-family: "Neuzeit S Bold", inherit;
 }
 
 #purpose {
