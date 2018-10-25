@@ -38,12 +38,12 @@ p {
 
 @font-face {
     font-family: "Neuzeit S";
-    src: url("NeuzeitSBook.woff") format('woff');
-    src: url("NeuzeitSBook.woff2") format('woff2');
+    src: url("style/NeuzeitSBook.woff") format('woff');
+    src: url("style/NeuzeitSBook.woff2") format('woff2');
 }
 
 @font-face {
     font-family: "Neuzeit S Bold";
-    src: url("NeuzeitSBookHeavy.woff") format('woff');
-    src: url("NeuzeitSBookHeavy.woff2") format('woff2');
+    src: url("style/NeuzeitSBookHeavy.woff") format('woff');
+    src: url("style/NeuzeitSBookHeavy.woff2") format('woff2');
 }
