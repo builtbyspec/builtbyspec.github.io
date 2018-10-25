@@ -1,0 +1,49 @@
+body {
+  margin-top:20vh;
+  font-family: "Neuzeit S";
+}
+
+h2 {
+    color: #0054DE;
+    font-family: "Neuzeit S Bold";
+    font-size: 24px;
+}
+
+.container {
+    padding: 4vh;
+}
+
+p {
+    font-size: 24px;
+    color: #686868;
+}
+
+#headline {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: "Neuzeit S Bold";
+}
+
+#purpose {
+    font-size: 2em;
+    color: #0054DE;
+}
+
+.btn {
+    margin-right: 20px;
+    border-radius: 6px;
+    box-shadow: 4px 9px 25px 1px rgba(0, 0, 0, .1);
+    border-style: none;
+}
+
+@font-face {
+    font-family: "Neuzeit S";
+    src: url("NeuzeitSBook.woff") format('woff');
+    src: url("NeuzeitSBook.woff2") format('woff2');
+}
+
+@font-face {
+    font-family: "Neuzeit S Bold";
+    src: url("NeuzeitSBookHeavy.woff") format('woff');
+    src: url("NeuzeitSBookHeavy.woff2") format('woff2');
+}
