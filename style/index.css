@@ -1,6 +1,6 @@
 body {
-  margin-top:20vh;
-  margin-bottom:20vh;
+  margin-top: 20vh;
+  margin-bottom: 20vh;
   font-family: "Neuzeit S", inherit;
 }
 
@@ -28,6 +28,10 @@ p {
 #purpose {
     font-size: 2em;
     color: #0054DE;
+}
+
+#contact {
+  font-size: 16px;
 }
 
 .btn {
