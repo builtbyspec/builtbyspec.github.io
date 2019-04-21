@@ -41,6 +41,10 @@ p {
     border-style: none;
 }
 
+.row {
+    padding: 4vh 0;
+}
+
 #spotify {
     background: linear-gradient(180deg, rgba(29,185,84,1) 0%, rgba(134,201,81,1) 24%, rgba(255,255,255,1) 100%);
     padding: 4vh 0;
@@ -48,10 +52,6 @@ p {
 
 .card {
     font-family: "Overpass", sans-serif;
-}
-
-.row {
-    padding: 4vh 0; 
 }
 
 .card-img-top {
