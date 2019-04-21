@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Overpass');
+
 body {
   margin-top: 20vh;
   margin-bottom: 20vh;
@@ -8,10 +10,6 @@ h2 {
     color: #0054DE;
     font-family: "Neuzeit S Bold", inherit;
     font-size: 24px;
-}
-
-.container {
-    padding: 4vh;
 }
 
 p {
@@ -28,6 +26,8 @@ p {
 #purpose {
     font-size: 2em;
     color: #0054DE;
+    font-weight: 500;
+    line-height: 40px;
 }
 
 #contact {
@@ -41,14 +41,25 @@ p {
     border-style: none;
 }
 
-@font-face {
-    font-family: "Neuzeit S";
-    src: url("style/NeuzeitSBook.woff") format('woff');
-    src: url("style/NeuzeitSBook.woff2") format('woff2');
+#spotify {
+    background: linear-gradient(180deg, rgba(29,185,84,1) 0%, rgba(134,201,81,1) 24%, rgba(255,255,255,1) 100%);
+    padding: 4vh 0;
 }
 
-@font-face {
-    font-family: "Neuzeit S Bold";
-    src: url("style/NeuzeitSBookHeavy.woff") format('woff');
-    src: url("style/NeuzeitSBookHeavy.woff2") format('woff2');
+.card {
+    font-family: "Overpass", sans-serif;
+}
+
+.row {
+    padding: 4vh 0; 
+}
+
+.card-img-top {
+    text-align: center;
+    padding: 20px
+}
+
+.card-title {
+    font-size: 28px;
+    font-weight: 800;
 }
