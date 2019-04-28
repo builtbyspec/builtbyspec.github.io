@@ -56,9 +56,9 @@ p {
 
 .card-img-top {
     text-align: center;
-    padding: 20px
-    height: 28rem;
-    width: 28rem;
+    padding: 20px;
+    height: 10rem;
+    width: 10rem;
 }
 
 .card-title {
